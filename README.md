@@ -2,7 +2,7 @@
 
 # 语言知识
 
-[CSharp](.\语言知识\CSharp.md)
+[CSharp](./语言知识/CSharp.md)
 
 
 
