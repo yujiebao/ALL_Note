@@ -139,7 +139,7 @@ public int this[int x, int y]
 }
 ```
 
- [索引器](F:\桌面\知识库整理\语言知识\CSharp.assets\索引器.cs)
+ [索引器](./CSharp.assets/索引器.cs)
 
 ## 4.静态成员
 
