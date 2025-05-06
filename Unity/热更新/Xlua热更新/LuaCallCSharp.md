@@ -667,3 +667,8 @@ local testFunc2_R = testFunc2(CS.System.Int32)
 testFunc2_R(obj,1)
 ```
 
+
+
+
+
+使用Object传入参数
