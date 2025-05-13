@@ -127,21 +127,34 @@ t2.show();
 
 1**.LitJson可以直接读取数据集合(数组)** 
 
-      ```C#
+ ```C#
 jsonStr = File.ReadAllText(Application.persistentDataPath + "/Array.json");
+
 List<RoleData> roleDataList = JsonMapper.ToObject<List<RoleData>>(jsonStr);
+
 foreach (var item in roleDataList)
+
 {
+
     print(item.hp);
+
 }
+
 jsonStr = File.ReadAllText(Application.persistentDataPath + "/Dic.json");
+
 Dictionary<string, int> roleDataDic = JsonMapper.ToObject<Dictionary<string, int>>(jsonStr);
+
 foreach (var item in roleDataDic)
+
 {
+
     print(item.Key);
+
     print(item.Value);
+
 }
-      ```
+
+ ```
 
 2.**文件编码格式是UTF-8格式，否者无法加载**
 
